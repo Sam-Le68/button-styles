@@ -7,17 +7,24 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+
 div {
   padding: .5rem;
   text-align: center;
 }
 
 .btn {
+  border: 3px solid #000;
   display: inline-block;
   font-size: 1.125rem;
   text-decoration: none;
   color: #fff;
-  padding: .4em .75em .3em;
+  padding: .4em 2em .3em;
   border-radius: 8px;
   background-color: #333;
   margin: 0 10em;
@@ -33,7 +40,6 @@ div {
   margin: 0 10em;
   color: #000;
   background-color: #fff;
-  border: 3px solid #000;
 }
 
 .btn-warning {
