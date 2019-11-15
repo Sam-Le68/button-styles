@@ -18,6 +18,17 @@ div {
   text-align: center;
 }
 
+.btn {
+  border: 3px solid #fff;
+  display: inline-block;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #fff;
+  padding: .4em 2em .3em;
+  border-radius: 8px;
+  background-color: #333;
+}
+
 .btn-subtle {
   color: #fff;
   background-color: #ccc;
@@ -56,15 +67,4 @@ div {
 
 .btn-warning:hover {
   background-color: #933;
-}
-
-.btn {
-  border: 3px solid #fff;
-  display: inline-block;
-  font-size: 1.125rem;
-  text-decoration: none;
-  color: #fff;
-  padding: .4em 2em .3em;
-  border-radius: 8px;
-  background-color: #333;
 }
